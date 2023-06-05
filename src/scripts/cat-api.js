@@ -2,9 +2,10 @@ import Notiflix from 'notiflix';
 const API_PATH = 'https://api.thecatapi.com/v1/breeds/';
 const options = {
   headers: {
-    'x-api-key':process.env.API_KEY
-  },
-};
+    'x-api-key':
+    'live_vgIfWpHMJAguSnXoOcEHMQ115ed3TgS4nS7w1gA2SzbKRD0sdW6VG7g0QwCXmVdK'
+  }
+  };
 
 async function handleResponse(response) {
   if (response.ok) {
